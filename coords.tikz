@@ -39,10 +39,12 @@
 		\node [style=none] (40) at (8.5, 3.75) {};
 		\node [style=none] (41) at (11, 1.25) {$\hat{r}$};
 		\node [style=none] (42) at (9.5, 4) {$\hat{z}$};
-		\node [style=none] (43) at (10.5, 2.5) {};
-		\node [style=none] (44) at (10.5, 2.5) {};
+		\node [style=none] (43) at (10.75, 3) {};
 		\node [style=none] (45) at (11, 2.5) {};
 		\node [style=none] (46) at (11, 2.5) {$\rho$};
+		\node [style=none] (47) at (10.25, 1.5) {};
+		\node [style=none] (48) at (10, 2.5) {};
+		\node [style=none] (49) at (9.75, 2) {$\phi$};
 	\end{pgfonlayer}
 	\begin{pgfonlayer}{edgelayer}
 		\draw [style=new edge style 1, bend right=150, looseness=1.75] (2.center) to (3.center);
@@ -75,5 +77,6 @@
 		\draw [style=arrowstyle] (13.center) to (40.center);
 		\draw [style=arrowstyle] (13.center) to (39.center);
 		\draw [style=arrowstyle] (13.center) to (43.center);
+		\draw [style=arrowstyle, bend right=15, looseness=1.25] (47.center) to (48.center);
 	\end{pgfonlayer}
 \end{tikzpicture}
